@@ -1,0 +1,23 @@
+.hero-section {
+  background: linear-gradient(135deg, #4d9ceb, #004891); 
+  background-size: cover;
+  background-position: center;
+}
+
+
+@media (max-width: 575.98px){
+    .hero-section h1{
+        font-size: 1.8rem;
+    }
+
+    .hero-section .lead{
+        font-size: 0.9rem;
+    }
+
+    .display-5{
+        font-size: 1.8rem;
+    }
+    #how-it-works .card-body p.small {
+        font-size: 0.8rem;
+    }
+}

@@ -278,9 +278,9 @@ const LandingPage = () => {
             Created with <p>Paulotech</p>
           </p>
           <p className='mt-2'>
-            <a href='#'><Facebook /></a>
-            <a href='#' ><Twitter /></a>
-            <a href='#' ><Instagram /></a>
+            <a href='#' className='me-2'><Facebook /></a>
+            <a href='#' className='me-2' ><Twitter /></a>
+            <a href='#' className='me-2'><Instagram /></a>
           </p>
         </div>
       </footer>

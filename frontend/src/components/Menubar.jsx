@@ -34,7 +34,7 @@ const Menubar = () => {
             </li>
             <li className='nav-item'>
               <button className='nav-link fw-medium'>
-                Gerador
+                <a href="/generate">Gerador</a>
               </button>
             </li>
             <li className='nav-item'>

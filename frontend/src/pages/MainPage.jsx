@@ -10,7 +10,7 @@ const MainPage = () => {
 
   const [isEditingTitle, setIsEditingTitle] = useState(false);
   const navigate = useNavigate();
-  const { invoiceTitle, setInvoiceTitle,invoiceData, setInvoiceData, setSelectTemplate } = useContext(AppContext);
+  const { invoiceTitle, setInvoiceTitle,invoiceData, setInvoiceData, setSelectedTemplate } = useContext(AppContext);
 
   const handleTitleChange = (e) => {
     const newTitle = e.target.value;
@@ -31,7 +31,7 @@ const MainPage = () => {
       return;
     }
 
-    setSelectTemplate(templateId);
+    setSelectedTemplate(templateId);
     navigate('/preview');
   }
 

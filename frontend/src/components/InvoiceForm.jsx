@@ -46,6 +46,10 @@ const InvoiceForm = () => {
         if(field === 'qty' || field === 'amount') {
             items[index].total = (items[index].qty || 0) * (items[index].amount || 0);
         }
+            setInvoiceData((prev) => ({
+            ...prev,
+            items,
+        }));
     };
 
     const calculateTotals = () => {
@@ -93,7 +97,7 @@ const InvoiceForm = () => {
             <h5>Logo da empresa</h5>
             <div className="d-flex align-items-center gap-3">
                 <label htmlFor="image" className="form-label">
-                    <img src={invoiceData.logo ? invoiceData.log : assets.upload} alt='upload' width={98} />
+                    <img src={invoiceData.logo ? invoiceData.logo : assets.upload} alt='upload' width={98} />
                 </label>
                 <input type="file" 
                 name='logo' 

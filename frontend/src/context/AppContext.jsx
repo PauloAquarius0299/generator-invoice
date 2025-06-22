@@ -10,6 +10,8 @@ export const initialInvoiceData = {
     account: {name: '', number: '', ifiscode: ''},
     company: {name: '', number: '', address: ''},
     tax: 0,
+    subtotal: 0,
+    total: 0,
     notes: '',
     items : [
         {name: '', qty: '', amount: '', description: '', total: 0}

@@ -1,0 +1,41 @@
+.w-800 {
+  max-width: 800px;
+}
+
+.company-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.invoice-title {
+  color: #540085;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.billing-title {
+  color: #540085;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.table-bg{
+    background-color: #540085;
+    color: white;
+}
+
+.table-header {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.billing-box {
+  background-color: #fdfdfd;
+  border: 1px solid #dee2e6;
+}
+
+.totals-box {
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
